@@ -1,5 +1,4 @@
 ---
 layout: shorturl
 go: 
-name: 
 ---
