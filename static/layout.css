@@ -248,7 +248,7 @@ span.monospace-text {
 #homepage-third-div {
     padding-top: 50px;
     padding-bottom: 10px;
-    background-color: #043c6b;
+    background-color: #61046b;
     color: #a4bbe3;
     text-align: center;
     font-size: 90%;
@@ -258,11 +258,11 @@ span.monospace-text {
     font-style: italic;
 }
 .homepage-hline-darker {
-    background-color: #a4bbe3;
+    background-color: #dfa4e3;
     padding-top: 7px;
 }
 .homepage-hline-lighter {
-    background-color: #dbe4f4;
+    background-color: #f3dbf4;
     padding-top: 7px;
 }
 
