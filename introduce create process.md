@@ -1,4 +1,4 @@
 ---
 layout: shorturl
-go: https://c73.jwint.net/doc/selfPTcreate.md
+go: https://go.jwint.net/zzz240514211040
 ---
