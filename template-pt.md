@@ -1,6 +1,6 @@
 ---
 layout: ptlayout
-title: AA
+title: template
 who: BB
 say: CC
 ---
