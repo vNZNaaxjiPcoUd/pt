@@ -15,24 +15,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./static/skeleton.css">
-    <link rel="stylesheet" href="./static/base.css">
-    <link rel="stylesheet" href="./static/layout.css"> <!-- site specific css -->
-    <link rel="stylesheet" href="./static/jquery-ui-1.10.3.custom.css">
+    <link rel="stylesheet" href="/static/skeleton.css">
+    <link rel="stylesheet" href="/static/base.css">
+    <link rel="stylesheet" href="/static/layout.css"> <!-- site specific css -->
+    <link rel="stylesheet" href="/static/jquery-ui-1.10.3.custom.css">
     <!-- Favicons -->
-    <link rel="shortcut icon" href="./static/favicon.ico">
-    <link rel="apple-touch-icon" href="./static/logo.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./static/logo.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./static/logo.png">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <link rel="apple-touch-icon" href="/static/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/logo.png">
 
     <!-- JS -->
-    <script type="text/javascript" src="./static/jquery-2.0.3.min.js"></script> <!-- jQuery, unmodified, from http://code.jquery.com/jquery-2.0.3.min.js -->
-    <script type="text/javascript" src="./static/jquery-ui-1.10.3.custom.min.js"></script> <!-- jQuery UI full, UI darkness, unmodified -->
+    <script type="text/javascript" src="/static/jquery-2.0.3.min.js"></script> <!-- jQuery, unmodified, from http://code.jquery.com/jquery-2.0.3.min.js -->
+    <script type="text/javascript" src="/static/jquery-ui-1.10.3.custom.min.js"></script> <!-- jQuery UI full, UI darkness, unmodified -->
     
-    <script type="text/javascript" src="./static/sha512.js"></script> <!-- lib SHA-512 -->
-    <script type="text/javascript" src="./static/aes.js"></script> <!-- lib for AES -->
+    <script type="text/javascript" src="/static/sha512.js"></script> <!-- lib SHA-512 -->
+    <script type="text/javascript" src="/static/aes.js"></script> <!-- lib for AES -->
 
-    <script type="text/javascript" src="./static/main.js"></script> <!-- main JS file -->
+    <script type="text/javascript" src="/static/main.js"></script> <!-- main JS file -->
     
 </head>
 <body style="overflow: hidden;">
@@ -42,7 +42,7 @@
             <div class="container">
                 <div class="sixteen columns">
                     <div class="four columns alpha" id="logo-img-div">
-                        <a href="https://hello.com/"><img alt="logo" src="./static/logo.png" id="logo-img"></a>
+                        <a href="https://hello.com/"><img alt="logo" src="/static/logo.png" id="logo-img"></a>
                     </div>
                     <div class="twelve columns omega" id="menubar-buttons">
                         <button class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button-delete" role="button" aria-disabled="false"><span class="ui-button-text">Delete</span></button>
@@ -50,10 +50,10 @@
                         <button class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only" id="button-save" disabled="" role="button" aria-disabled="true"><span class="ui-button-text">Save</span></button>
                         <button class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button-reload" role="button" aria-disabled="false"><span class="ui-button-text">Reload</span></button>
 						<a href="./helpusfight">
-							<img class="android-app-icon" alt="help us fight" src="./static/logo.png">
+							<img class="android-app-icon" alt="help us fight" src="/static/logo.png">
 						</a>
                         <a href="https://hello">
-                            <img class="android-app-icon" alt="app icon" src="./static/logo.png">
+                            <img class="android-app-icon" alt="app icon" src="/static/logo.png">
                         </a>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
     </div>
     <!-- Loader -->
     <div id="loader" class="displaynone ui-widget-overlay">
-        <img src="./static/loader.gif" alt="loader-gif">
+        <img src="/static/loader.gif" alt="loader-gif">
     </div>
     
     <script type="text/javascript">
@@ -124,7 +124,7 @@
         /* data from server is stored in 'state' object */
         state = new ClientState(
         "{{ page.who }}",
-        "{{ page.say }}",
+        {{ page.say }},
         false,2,2);
     }
     </script>
