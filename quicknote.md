@@ -1,4 +1,5 @@
 ---
 layout: shorturl
-go: https://go.jwint.net/zzz240514211208
+go: https://go.jwint.net/ptqn.html
+title: qn
 ---
