@@ -1,7 +1,7 @@
 ---
 layout: pt
 title: AAAA
-who: /AAAA
+who: AAAA
 say: AAAA
 ---
 OK
