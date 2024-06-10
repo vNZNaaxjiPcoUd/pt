@@ -1,7 +1,7 @@
 ---
 layout: ptlayout
-title: template
-who: /tmp
-say: dddd
+title: AAAA
+who: /AAAA
+say: AAAA
 ---
 OK
