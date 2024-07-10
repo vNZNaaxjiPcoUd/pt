@@ -1,0 +1,7 @@
+---
+layout: pt
+title: easykey
+who: 85ffdc9ce672ee
+say: U2FsdGVkX1+thy+ggdvzgYIEJhjn3HiEGMQKHOoleh/I4vL3ky9W4xi/YeJQmMKDKzX4V1mwcgageXrL9riolj4ESYhMjFDQ3g1aj8iP/Kz4kDxAjOUTFiLGXVHw8jBlJ8GgKpunOtVBwAHYdLKBzkyKJ34SFYzR8iZtgDcQC6a5gAi4pYhX6Z5lRA7eR3r/JV5O6yIqtocvlisKyowvoq2OMWCWbs9sFRxTJDLqjw6sH/7Pyf+WcccfjTMvBbgVQu2vyU2YNV4a3NRZaXSxWw==
+---
+OK
