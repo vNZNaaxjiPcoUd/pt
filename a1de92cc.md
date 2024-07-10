@@ -2,6 +2,5 @@ LIST
 ====
 ga.
 
-{% for p in site.pages | sort_natural: "title" %}
-<[{{ p.title }}]({{ p.url }}).{{ p.who }}>
-{% endfor %}
+{% assign pp = site.pages | sort_natural: "title" | reverse %}
+{% for p in pp %}<[{{ p.title }}]({{ p.url }}).{{ p.who }}> {% endfor %}
