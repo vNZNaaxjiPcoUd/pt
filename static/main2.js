@@ -539,7 +539,7 @@ function decryptContentAndFinishInitialization(isOld) {
             dialogClass: "no-close show-additional-text active-dialog",
             modal : true,
             buttons : {
-                "Open" : function() {
+                "Decrypt this site" : function() {
                     $(this).dialog("close");
                     var pass = $("#enterpassword").val();
                     var success = state.setLoginPasswordAndContentIfCorrect(pass);
@@ -571,7 +571,7 @@ function decryptContentAndFinishInitialization(isOld) {
             dialogClass: "no-close active-dialog",
             modal : true,
             buttons : {
-                "Open" : function() {
+                "Decrypt this site" : function() {
                     $(this).dialog("close");
                     var pass = $("#enterpassword").val();
                     var success = state.setLoginPasswordAndContentIfCorrect(pass);
