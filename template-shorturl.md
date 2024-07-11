@@ -1,6 +1,6 @@
 ---
 layout: shorturl
 go: 
-title: srL tmp
+title: Short url template
 ---
 jump to .
