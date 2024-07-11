@@ -539,12 +539,12 @@ function decryptContentAndFinishInitialization(isOld) {
             dialogClass: "no-close show-additional-text active-dialog",
             modal : true,
             buttons : {
-                "Open" : function() {
+                "Decrypt this site" : function() {
                     $(this).dialog("close");
                     var pass = $("#enterpassword").val();
                     var success = state.setLoginPasswordAndContentIfCorrect(pass);
                     if (success == false) {
-                        toast("Wrong password", 700, 200, 100);
+                        toast("OK!", 700, 200, 100);
                         tryNewPassword();
                     }
                     else 
@@ -571,12 +571,12 @@ function decryptContentAndFinishInitialization(isOld) {
             dialogClass: "no-close active-dialog",
             modal : true,
             buttons : {
-                "Open" : function() {
+                "Decrypt this site" : function() {
                     $(this).dialog("close");
                     var pass = $("#enterpassword").val();
                     var success = state.setLoginPasswordAndContentIfCorrect(pass);
                     if (success == false) {
-                        toast("Wrong password", 700, 200, 100);
+                        toast("OK!", 700, 200, 100);
                         tryNewPassword();
                     }
                     else
@@ -727,7 +727,7 @@ function fixUpOfflineSite() {
 		$(".ui-dialog").remove(); // remove dialogs
 		$(".ui-widget-overlay").remove(); // remove overlay 
 		$("#menubar-buttons").remove(); // remove buttons since they won't work offline
-		toast("Hello!", 5000);
+		toast("This is READ-ONLY encrypted offline copy.", 5000);
 	}
 }
 
