@@ -727,7 +727,7 @@ function fixUpOfflineSite() {
 		$(".ui-dialog").remove(); // remove dialogs
 		$(".ui-widget-overlay").remove(); // remove overlay 
 		$("#menubar-buttons").remove(); // remove buttons since they won't work offline
-		toast("This is READ-ONLY encrypted offline copy.", 5000);
+		toast("Welcome ! ", 1000);
 	}
 }
 
