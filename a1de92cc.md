@@ -1,6 +1,5 @@
 LIST
 ====
-ga.
 
 {% assign pp = site.pages | sort_natural: "title" %}
 
