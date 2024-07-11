@@ -1,6 +1,7 @@
 ---
-layout: shorturl
-go: https://www.protectedtext.com/wenvwei23ksfower23ok32uihftuswer3dsf323f43ffre45dfg34ddfgfg
-title: New Create
+layout: pt
+title: Create Doc
+who: wenvwei23ksfower23ok32uihftuswer3dsf323f43ffre45dfg34ddfgfg
+say: U2FsdGVkX19+YAbEGaHjn5YOx0LfWPGPX9aA7jZna+tWxXYn+HBgxkntmFTT61R/Q6JdiNGydH2SK4jOW6xcHqayq62nufaEEwUBVwKg9kbkQNZlMNP5jrHbI2cWVEtPYfbaY9/zABxeT3Z9dD8ltUk4XBY2L/hP9EA1OId2EbK4riBcY6SLnY+xBVLtAcQNCNxO3cEN4TQkvl5L7818GhDFWg7caLBigQOgnKBR2NWBHbr/DYaUfftDc0j/4GleKlZcRnMdSSuMl28/eOr3SA==
 ---
-jump to .
+OK
