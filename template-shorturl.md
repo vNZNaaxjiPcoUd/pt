@@ -1,6 +1,6 @@
 ---
 layout: shorturl
-title: redir template
+title: reDir template
 go: 
 ---
 
