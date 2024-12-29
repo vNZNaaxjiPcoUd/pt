@@ -1,6 +1,6 @@
 ---
 layout: pt
-title: Doc template
+title: PT template
 who: AAAA
 say: AAAA
 ---
