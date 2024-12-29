@@ -1,6 +1,6 @@
 ---
 layout: pt
-title: 建立例子
+title: 建立新的PT的樣版
 who: f382b27ea2f22162795baf3bbe24201bf07f60f5822ddde9abb8ad74
 say: U2FsdGVkX1+rkJYL+BPw9xyyNu4J2n0akcQ3ihvf8/XJdg6UzPOudrjvdwsB0gk6C0ASa68dkENKEaAp2XID0m/yDeZoZG7VLaHlFskebL8lPTBcSLyUSFHqSk5bakqKaaUANjOx+k74497sBGocEDheqyL6CegeLv3bUgfVJA3THMP1Ib3GiVjhG1haokv8Z1bxnHfYk1jlI13H87KUTbpfSyZm1wkz0e1N00d/r5qdEi5TJs/KryI0+rUx6r27Ljv7AoW++raVXcO3ruHFDA==",
 ---
