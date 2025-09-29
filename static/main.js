@@ -509,6 +509,7 @@ function initSite() { // called at the end of site initialization
             	$("#button-savenew").remove(); // 'public' site with embeded password probably shouldn't change that password
 	            return;
 	        }
+			sleep(60);
     	}
     	
     	// show password dialog
@@ -810,4 +811,5 @@ function toast(text, duration, fadeInDuration, fadeOutDuration) {
     $("#toast").html(text);
     $("#outer-toast").fadeIn(fadeInDuration).delay(duration).fadeOut(fadeOutDuration); 
 }
+
 
