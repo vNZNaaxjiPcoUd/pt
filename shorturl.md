@@ -1,6 +1,6 @@
 ---
 layout: shorturl
-title: 跳轉頁面的例子
+title: shorturl jump example
 go: https://www.amazon.com/
 ---
 
